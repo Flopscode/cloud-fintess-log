@@ -1,0 +1,7 @@
+{
+  "name": "base-tsconfig",
+  "version": "0.1.0",
+  "scripts": {
+    "build": ""
+  }
+}

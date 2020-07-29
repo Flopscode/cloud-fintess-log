@@ -1,0 +1,13 @@
+{
+  "name": "weight-domain",
+  "version": "0.1.0",
+  "main": "lib/index",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "10.17.5",
+    "typescript": "~3.9.7",
+    "base-tsconfig": "~0.1.0"
+  }
+}

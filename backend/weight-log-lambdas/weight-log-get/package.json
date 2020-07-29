@@ -1,0 +1,10 @@
+{
+  "name": "weight-log-get",
+  "version": "0.1.0",
+  "main": "./build/index",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  }
+}

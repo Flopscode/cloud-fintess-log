@@ -1,0 +1,14 @@
+.default-page-margin {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fab {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.fab-bottom-space-blocker {
+  height: 70px;
+}

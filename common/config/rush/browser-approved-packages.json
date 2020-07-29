@@ -1,0 +1,298 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@babel/core",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@devexpress/dx-chart-core",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@devexpress/dx-react-chart",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@devexpress/dx-react-chart-material-ui",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@devexpress/dx-react-core",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@material-ui/core",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@material-ui/icons",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@svgr/webpack",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@testing-library/jest-dom",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@testing-library/react",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@testing-library/user-event",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "aws-sdk",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "babel-eslint",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "babel-jest",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "babel-loader",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "babel-plugin-named-asset-import",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "babel-preset-react-app",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "base-tsconfig",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "build-lambda-bundle",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "camelcase",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "case-sensitive-paths-webpack-plugin",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "create-lambda-bundle",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "css-loader",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "d3-scale",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "dotenv",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "dotenv-expand",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint-config-react-app",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint-loader",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint-plugin-flowtype",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint-plugin-import",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint-plugin-jsx-a11y",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint-plugin-react",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint-plugin-react-hooks",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "file-loader",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "fs-extra",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "html-webpack-plugin",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "identity-obj-proxy",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "jest",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "jest-environment-jsdom-fourteen",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "jest-resolve",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "jest-watch-typeahead",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "mini-css-extract-plugin",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "optimize-css-assets-webpack-plugin",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "pnp-webpack-plugin",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "postcss-flexbugs-fixes",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "postcss-loader",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "postcss-normalize",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "postcss-preset-env",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "postcss-safe-parser",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "prepare-layer-cloud-deployment",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "react",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "react-app-polyfill",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "react-dev-utils",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "react-dom",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "react-intl",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "resolve",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "resolve-url-loader",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "sass-loader",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "semver",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "style-loader",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "terser-webpack-plugin",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "ts-jest",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "ts-pnp",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "url-loader",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "webpack",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "webpack-dev-server",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "webpack-manifest-plugin",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "weight-domain",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "workbox-webpack-plugin",
+      "allowedCategories": [ "production" ]
+    }
+  ]
+}
