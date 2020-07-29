@@ -450,12 +450,6 @@
     },
     
     {
-      "packageName": "weight-log-lambdas-test",
-      "projectFolder": "backend/weight-log-lambdas-test",
-      "reviewCategory": "production"
-    },
-    
-    {
       "packageName": "fitness-log-react",
       "projectFolder": "apps/fitness-log-react",
       "reviewCategory": "production"

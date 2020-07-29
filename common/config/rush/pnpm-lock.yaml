@@ -11,7 +11,6 @@ dependencies:
   '@rush-temp/prepare-layer-cloud-deployment': 'file:projects/prepare-layer-cloud-deployment.tgz'
   '@rush-temp/weight-domain': 'file:projects/weight-domain.tgz'
   '@rush-temp/weight-log-lambdas': 'file:projects/weight-log-lambdas.tgz'
-  '@rush-temp/weight-log-lambdas-test': 'file:projects/weight-log-lambdas-test.tgz'
   '@svgr/webpack': 4.3.3
   '@testing-library/jest-dom': 4.2.4
   '@testing-library/react': 9.5.0_react-dom@16.13.1+react@16.13.1
@@ -14267,21 +14266,6 @@ packages:
       integrity: sha512-v5SFUodVhxyee5aOVif5QF5H40vv0GH54kqihPWwS7Wx5ivW17+w8dKzIOFdvnMqEQ4kyYzNOnxC9B1xKbVQHw==
       tarball: 'file:projects/weight-domain.tgz'
     version: 0.0.0
-  'file:projects/weight-log-lambdas-test.tgz':
-    dependencies:
-      '@types/aws-lambda': 8.10.59
-      '@types/jest': 26.0.7
-      '@types/node': 14.0.26
-      aws-sdk: 2.717.0
-      jest: 26.1.0
-      ts-jest: 26.1.3_jest@26.1.0+typescript@3.9.7
-      typescript: 3.9.7
-    dev: false
-    name: '@rush-temp/weight-log-lambdas-test'
-    resolution:
-      integrity: sha512-6cVRW715YTzSilsXAHVofNWJs7zZcZbdtlrploxwaALwg8REvUP5me6oI2bNDMMcqSdpDDGZPdrL1P449Jdksg==
-      tarball: 'file:projects/weight-log-lambdas-test.tgz'
-    version: 0.0.0
   'file:projects/weight-log-lambdas.tgz':
     dependencies:
       '@types/aws-lambda': 8.10.59
@@ -14311,7 +14295,6 @@ specifiers:
   '@rush-temp/prepare-layer-cloud-deployment': 'file:./projects/prepare-layer-cloud-deployment.tgz'
   '@rush-temp/weight-domain': 'file:./projects/weight-domain.tgz'
   '@rush-temp/weight-log-lambdas': 'file:./projects/weight-log-lambdas.tgz'
-  '@rush-temp/weight-log-lambdas-test': 'file:./projects/weight-log-lambdas-test.tgz'
   '@svgr/webpack': 4.3.3
   '@testing-library/jest-dom': ^4.2.4
   '@testing-library/react': ^9.5.0
