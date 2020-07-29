@@ -9,8 +9,11 @@
 <br>
 
 
+Rush as manager
+
 - [Project Structure](./docs/project_structure.md)
-- Glossar
+
+# Lifecyle
 
 ## Development
 - Code Style

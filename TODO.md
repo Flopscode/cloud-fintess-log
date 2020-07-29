@@ -1,6 +1,4 @@
-test shamefully layer
 0. consistent File naming -> note in ReadMe doc file (sturcture required)
-1. specify lambda bundle definition in all tools
 2. specify lamdba bundle definition in ReadMe doc file (sturcture required)
 layer: link (which points to the fitlered node_modules in the deployment?)
 
