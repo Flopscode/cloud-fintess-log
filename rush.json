@@ -445,7 +445,7 @@
     
     {
       "packageName": "weight-log-lambdas",
-      "projectFolder": "backend/weight-log-lambdas",
+      "projectFolder": "apps/weight-log-lambdas",
       "reviewCategory": "production"
     },
     

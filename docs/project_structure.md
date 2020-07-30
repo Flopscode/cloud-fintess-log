@@ -1,6 +1,8 @@
 # Project Sturcture
 
-## Project directories
+[back to main file](../README.md)
+
+## Overview
 - [/apps](#/apps)
 - [/backend](#/backend)
   - [Lambda Bundle](#Lambda-Bundle)
@@ -9,15 +11,11 @@
 - [/libraries](#/libraries)
 - [/resources](#/resources)
 - [/tools](#/tools)
-- [/ (root)](#/-(root))
 
 ## /apps
-// TODO
+Applications which can be deployed.
 
-## /backend
-
-// TODO
-Lorem impsum, backend service code such lambda and IaC deployment code.
+For lambda functions following structure is used.
 
 ### Lambda Bundle
 A project structure for a set of lambda functions sharing at least one layer.
@@ -75,16 +73,14 @@ In general, this should be only relevant if you want to avoid to inflate the siz
 Files used by rush. See https://rushjs.io.
 
 ## /docs
-// TODO
+Documentation files.
 
 ## /libraries
-// TODO
+Extracted code bundle into projects used by more than one other project.
 
 ## /resources
-// TODO
+A place for various resources.
 
 ## /tools
-// TODO
-
-## / (root)
-// TODO
+Scripts and utility projects which, for instane, help to build lambda layers or perform the deployment.
+Those projects are never deployed but only used within the project for development purposes.

@@ -1,29 +1,46 @@
 <p align="center">
   <img width="250" src="./resources/logo.png">
 </p>
-<h1 align="center"> cloud-fintess-log </h1>
+<h1 align="center">cloud-fintess-log</h1>
 <p align="center">
-  <b >Punsh Line goeas here</b>
+  <b>Lift and shift your goals.</b>
 </p>
-
 <br>
 
+## Project Management
 
-Rush as manager
+This project uses the monorepo manager [Rush](https://rushjs.io).
 
-- [Project Structure](./docs/project_structure.md)
+See also the 
 
-# Lifecyle
+- [Project Structure](./docs/project_structure.md) 
+- [Code Style](./docs/code_style.md)
 
-## Development
-- Code Style
-- Checklist (Unit Test)
+documentation.
 
-```rush update```
+## Usage
 
-```rush build```
+### Development
 
-```rush prepare-cloud-deployment```
+```
+rush update
+```
 
-## Deployment
+```
+rush build
+```
 
+```
+rush test
+```
+
+
+### Deployment
+
+```
+rush prepare-cloud-deployment
+```
+
+```
+rush deploy-to-cloud
+```
