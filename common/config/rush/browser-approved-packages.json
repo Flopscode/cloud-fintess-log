@@ -3,6 +3,14 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
   "packages": [
     {
+      "name": "@aws-cdk/assert",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "@aws-cdk/core",
+      "allowedCategories": [ "tools" ]
+    },
+    {
       "name": "@babel/core",
       "allowedCategories": [ "production" ]
     },
@@ -55,6 +63,10 @@
       "allowedCategories": [ "production" ]
     },
     {
+      "name": "aws-cdk",
+      "allowedCategories": [ "tools" ]
+    },
+    {
       "name": "aws-sdk",
       "allowedCategories": [ "production" ]
     },
@@ -80,7 +92,7 @@
     },
     {
       "name": "base-tsconfig",
-      "allowedCategories": [ "production" ]
+      "allowedCategories": [ "production", "tools" ]
     },
     {
       "name": "build-lambda-bundle",
@@ -164,7 +176,7 @@
     },
     {
       "name": "jest",
-      "allowedCategories": [ "production" ]
+      "allowedCategories": [ "production", "tools" ]
     },
     {
       "name": "jest-environment-jsdom-fourteen",
@@ -251,6 +263,10 @@
       "allowedCategories": [ "production" ]
     },
     {
+      "name": "source-map-support",
+      "allowedCategories": [ "tools" ]
+    },
+    {
       "name": "style-loader",
       "allowedCategories": [ "production" ]
     },
@@ -260,7 +276,11 @@
     },
     {
       "name": "ts-jest",
-      "allowedCategories": [ "production" ]
+      "allowedCategories": [ "production", "tools" ]
+    },
+    {
+      "name": "ts-node",
+      "allowedCategories": [ "tools" ]
     },
     {
       "name": "ts-pnp",
@@ -268,7 +288,7 @@
     },
     {
       "name": "typescript",
-      "allowedCategories": [ "production" ]
+      "allowedCategories": [ "production", "tools" ]
     },
     {
       "name": "url-loader",

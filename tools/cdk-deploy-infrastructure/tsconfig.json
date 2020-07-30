@@ -1,14 +1,11 @@
 {
   "extends": "./node_modules/base-tsconfig/tsconfig.json",
   "compilerOptions": {
-    "outDir": "./lib",
+    "declaration": false,
     "typeRoots": [ "./node_modules/@types" ]
   },
-  "include": [
-    "src/**/*.ts"
-  ],
   "exclude": [
+    "cdk.out",
     "src/**/*.spec.ts"
   ]
 }
-  

@@ -25,7 +25,7 @@
     "noUnusedParameters": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": false,
-    "strictPropertyInitialization":false,
+    "strictPropertyInitialization":true,
     "allowSyntheticDefaultImports": false,
     "forceConsistentCasingInFileNames": true
   }

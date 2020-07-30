@@ -438,6 +438,12 @@
     },
 
     {
+      "packageName": "cdk-deploy-infrastructure",
+      "projectFolder": "tools/cdk-deploy-infrastructure",
+      "reviewCategory": "tools"
+    },
+
+    {
       "packageName": "weight-domain",
       "projectFolder": "libraries/weight-domain",
       "reviewCategory": "production"
