@@ -5,7 +5,7 @@
 ## Overview
 - [/apps](#/apps)
 - [/backend](#/backend)
-  - [Lambda Bundle](#Lambda-Bundle)
+  - [Lambda Bundle](#lambda-bundle)
 - [/common](#/common)
 - [/docs](#/docs)
 - [/libraries](#/libraries)
@@ -63,6 +63,13 @@ The ```package.json``` of the root (layer level) should contain at least the fol
   },
 ```
 This way, the lambda layer content is automatically placed in _./build/layer_ during cloud deployment preparation phase.
+
+The ```package.json``` files of each function project reference the layer project as dev dependency. This ensures that the depedencies listed in the layer are build before the functions are build.
+```
+  "devDependencies": {
+    "example-bundle": "~1.0.0"
+  }
+```
 
 If you want to add a dependency to only one specifc function within such a lambda bundle project, take care that the deployed function code has actually access to those.
 For instance, you could create another layer or included directly into the code deployed to the specific lambda function.

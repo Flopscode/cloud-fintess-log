@@ -7,6 +7,14 @@
       "allowedCategories": [ "tools" ]
     },
     {
+      "name": "@aws-cdk/aws-apigateway",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "@aws-cdk/aws-lambda",
+      "allowedCategories": [ "tools" ]
+    },
+    {
       "name": "@aws-cdk/core",
       "allowedCategories": [ "tools" ]
     },
@@ -163,6 +171,10 @@
       "allowedCategories": [ "production" ]
     },
     {
+      "name": "fitness-log-react",
+      "allowedCategories": [ "tools" ]
+    },
+    {
       "name": "fs-extra",
       "allowedCategories": [ "production" ]
     },
@@ -309,6 +321,14 @@
     {
       "name": "weight-domain",
       "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "weight-log-get",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "weight-log-lambdas",
+      "allowedCategories": [ "production", "tools" ]
     },
     {
       "name": "workbox-webpack-plugin",

@@ -1,0 +1,22 @@
+{
+  "environment": "development",
+  "resourceSuffix": "DEV",
+  "aws": {
+    "region": "eu-central-1",
+    "accountId": ""
+  },
+  "application": {
+    "name": "",
+    "nameShort": "tRDI",
+    "resourceOwner": ""
+  },
+  "dns": {
+    "hostedZoneDomainName": "5.de"
+  },
+  "api": {
+    "domainName": "m5.de"
+  },
+  "frontend": {
+    "domainName": "m5.de"
+  }
+}

@@ -6,5 +6,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest"
+  },
+  "devDependencies": {
+    "weight-log-lambdas": "~0.1.0"
   }
 }

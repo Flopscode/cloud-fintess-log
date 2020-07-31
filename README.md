@@ -9,7 +9,9 @@
 
 ## Project Management
 
-This project uses the monorepo manager [Rush](https://rushjs.io).
+This project uses the monorepo manager [Rush](https://rushjs.io).<br/>
+Only [lambda bundle](./docs/project_structure.md#lambda-bundle) projects deviate from the default project folder depth as is advertised by Rush.
+<small>Note: Due to the [lambda bundle pattern](./docs/project_structure.md#lambda-bundle), Rush also shamefully hoists depedencies.</small><br/>
 
 See also the 
 
@@ -44,3 +46,7 @@ rush prepare-cloud-deployment
 ```
 rush deploy-to-cloud
 ```
+
+### CI/CD
+
+See tools/ci-cd-scripts
