@@ -51,6 +51,10 @@
       "allowedCategories": [ "production" ]
     },
     {
+      "name": "@testing-library/dom",
+      "allowedCategories": [ "production" ]
+    },
+    {
       "name": "@testing-library/jest-dom",
       "allowedCategories": [ "production" ]
     },

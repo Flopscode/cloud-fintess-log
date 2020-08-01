@@ -11,15 +11,17 @@ dependencies:
   '@material-ui/icons': 4.9.1_b15efc2d37f598693c09dc88928f4cf9
   '@rush-temp/base-tsconfig': 'file:projects/base-tsconfig.tgz'
   '@rush-temp/cdk-deploy-infrastructure': 'file:projects/cdk-deploy-infrastructure.tgz'
+  '@rush-temp/fitness-log-api': 'file:projects/fitness-log-api.tgz'
   '@rush-temp/fitness-log-react': 'file:projects/fitness-log-react.tgz'
   '@rush-temp/prepare-layer-cloud-deployment': 'file:projects/prepare-layer-cloud-deployment.tgz'
   '@rush-temp/weight-domain': 'file:projects/weight-domain.tgz'
   '@rush-temp/weight-log-get': 'file:projects/weight-log-get.tgz'
   '@rush-temp/weight-log-lambdas': 'file:projects/weight-log-lambdas.tgz'
   '@svgr/webpack': 4.3.3
+  '@testing-library/dom': 7.21.7
   '@testing-library/jest-dom': 4.2.4
   '@testing-library/react': 9.5.0_react-dom@16.13.1+react@16.13.1
-  '@testing-library/user-event': 7.2.1
+  '@testing-library/user-event': 7.2.1_@testing-library+dom@7.21.7
   '@types/aws-lambda': 8.10.59
   '@types/d3-scale': 2.2.0
   '@types/jest': 26.0.8
@@ -3130,6 +3132,18 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-lBD88ssxqEfz0wFL6MeUyyWZfV/2cjEZZV3YRpb2IoJRej/4f1jB0TzqIOznTpfR1r34CNesrubxwIlAQ8zgPA==
+  /@testing-library/dom/7.21.7:
+    dependencies:
+      '@babel/runtime': 7.10.5
+      '@types/aria-query': 4.2.0
+      aria-query: 4.2.2
+      dom-accessibility-api: 0.4.7
+      pretty-format: 25.5.0
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-GVNrLAt0yq7Squz1HrW8IiDVKP5jeWSv9cpgQJsfmXYXLFPpaFoRxn+H/NcUitVXyb0J62PkpVWjMe5b0fvYrQ==
   /@testing-library/jest-dom/4.2.4:
     dependencies:
       '@babel/runtime': 7.10.5
@@ -3162,12 +3176,18 @@ packages:
       react-dom: '*'
     resolution:
       integrity: sha512-di1b+D0p+rfeboHO5W7gTVeZDIK5+maEgstrZbWZSSvxDyfDRkkyBE1AJR5Psd6doNldluXlCWqXriUfqu/9Qg==
-  /@testing-library/user-event/7.2.1:
+  /@testing-library/user-event/7.2.1_@testing-library+dom@7.21.7:
+    dependencies:
+      '@testing-library/dom': 7.21.7
     dev: false
     peerDependencies:
       '@testing-library/dom': '>=5'
     resolution:
       integrity: sha512-oZ0Ib5I4Z2pUEcoo95cT1cr6slco9WY7yiPpG+RGNkj8YcYgJnM7pXmYmorNOReh8MIGcKSqXyeGjxnr8YiZbA==
+  /@types/aria-query/4.2.0:
+    dev: false
+    resolution:
+      integrity: sha512-iIgQNzCm0v7QMhhe4Jjn9uRh+I6GoPmt03CbEtwx3ao8/EfoQcmgtqH4vQ5Db/lxiIGaWDv6nwvunuh0RyX0+A==
   /@types/aws-lambda/8.10.59:
     dev: false
     resolution:
@@ -6078,6 +6098,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-PzwHEmsRP3IGY4gv/Ug+rMeaTIyTJvadCb+ujYXYeIylbHJezIyNToe8KfEgHTCEYyC+/bUghYOGg8yMGlZ6vA==
+  /dom-accessibility-api/0.4.7:
+    dev: false
+    resolution:
+      integrity: sha512-5+GzhTpCQYHz4NjL8loYTDVBnXIjNLBadWQBKxXk+osFEplLt3EsSYBu2YZcdZ8QqrvCHgW6TSMGMbmgfhrn2g==
   /dom-converter/0.2.0:
     dependencies:
       utila: 0.4.0
@@ -15119,6 +15143,13 @@ packages:
       integrity: sha512-Npe+AA1UVul44vLEbyKqG/SszVo2hX/OtR1VvkYaX3nO3cm0v5Gq1MJ4fz6cQZBOejhiqHRiyqZ77NJUBK+Blg==
       tarball: 'file:projects/cdk-deploy-infrastructure.tgz'
     version: 0.0.0
+  'file:projects/fitness-log-api.tgz':
+    dev: false
+    name: '@rush-temp/fitness-log-api'
+    resolution:
+      integrity: sha512-3M6H+KiK1dlF+2uCXurRc16YCJYutA+0Wwz5XzwwhfB6Zcek6z52FjzD/spEz/0dvR1fTlLAmhCtS1b0efwSdQ==
+      tarball: 'file:projects/fitness-log-api.tgz'
+    version: 0.0.0
   'file:projects/fitness-log-react.tgz':
     dependencies:
       '@babel/core': 7.9.0
@@ -15129,9 +15160,10 @@ packages:
       '@material-ui/core': 4.11.0_6c71570cf1eaf82f67c470a9cc4d93bc
       '@material-ui/icons': 4.9.1_b15efc2d37f598693c09dc88928f4cf9
       '@svgr/webpack': 4.3.3
+      '@testing-library/dom': 7.21.7
       '@testing-library/jest-dom': 4.2.4
       '@testing-library/react': 9.5.0_react-dom@16.13.1+react@16.13.1
-      '@testing-library/user-event': 7.2.1
+      '@testing-library/user-event': 7.2.1_@testing-library+dom@7.21.7
       '@types/d3-scale': 2.2.0
       '@types/jest': 26.0.8
       '@types/material-ui': 0.21.7
@@ -15196,7 +15228,7 @@ packages:
     dev: false
     name: '@rush-temp/fitness-log-react'
     resolution:
-      integrity: sha512-SSRCVWtxu6BKulGrbS4/+/P9NkQScNjsFz4jwWxQYZZI8FLxMxLZJYOfrzcu3MKGsRQJPTeZ+NWBEEqBEBSDCA==
+      integrity: sha512-nHNqSQW5gN+5bbyTSRk+BM5L+WQ7F7hnHKAkQrn/QERwpw5HwBF/wEDYxN+Xybv5cvI8n2V+bL+HR2nG1Q60ww==
       tarball: 'file:projects/fitness-log-react.tgz'
     version: 0.0.0
   'file:projects/prepare-layer-cloud-deployment.tgz':
@@ -15220,7 +15252,7 @@ packages:
     dev: false
     name: '@rush-temp/weight-log-get'
     resolution:
-      integrity: sha512-vAbrb9NYgcZwIxw1lLrgRCgCA3kQ1RYM8hTeVvXlkXIAWrn3wvtagPM+wV3Hu2vv07bwEt00jI2HPGGFC/0N3g==
+      integrity: sha512-I7FrRja5ATq1w58UQmh2yThopdfXCTrO16UCDnLLLOCMqTqP+qsLs+eG31Q0XywyZFKJmdwY+MNKoeSdoW8Zow==
       tarball: 'file:projects/weight-log-get.tgz'
     version: 0.0.0
   'file:projects/weight-log-lambdas.tgz':
@@ -15252,12 +15284,14 @@ specifiers:
   '@material-ui/icons': ^4.9.1
   '@rush-temp/base-tsconfig': 'file:./projects/base-tsconfig.tgz'
   '@rush-temp/cdk-deploy-infrastructure': 'file:./projects/cdk-deploy-infrastructure.tgz'
+  '@rush-temp/fitness-log-api': 'file:./projects/fitness-log-api.tgz'
   '@rush-temp/fitness-log-react': 'file:./projects/fitness-log-react.tgz'
   '@rush-temp/prepare-layer-cloud-deployment': 'file:./projects/prepare-layer-cloud-deployment.tgz'
   '@rush-temp/weight-domain': 'file:./projects/weight-domain.tgz'
   '@rush-temp/weight-log-get': 'file:./projects/weight-log-get.tgz'
   '@rush-temp/weight-log-lambdas': 'file:./projects/weight-log-lambdas.tgz'
   '@svgr/webpack': 4.3.3
+  '@testing-library/dom': ~7.21.7
   '@testing-library/jest-dom': ^4.2.4
   '@testing-library/react': ^9.5.0
   '@testing-library/user-event': ^7.2.1

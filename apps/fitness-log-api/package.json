@@ -1,0 +1,9 @@
+{
+  "name": "fitness-log-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Central change log project for the fintess log API.",
+  "scripts": {
+    "build": ""
+  }
+}

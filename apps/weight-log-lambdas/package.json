@@ -1,7 +1,7 @@
 {
   "name": "weight-log-lambdas",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "build": "",
     "prepare-cloud-deployment": "prepare-layer-cloud-deployment"

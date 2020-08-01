@@ -2,6 +2,7 @@
   "name": "weight-log-get",
   "version": "0.1.0",
   "main": "./build/index",
+  "private": true,
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",

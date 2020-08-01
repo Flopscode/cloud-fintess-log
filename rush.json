@@ -62,7 +62,7 @@
      * The default value is false to avoid legacy compatibility issues.
      * It is strongly recommended to set strictPeerDependencies=true.
      */
-    "strictPeerDependencies": true,
+    "strictPeerDependencies": true
 
     /**
      * Configures the strategy used to select versions during installation.
@@ -452,19 +452,29 @@
     {
       "packageName": "fitness-log-react",
       "projectFolder": "apps/fitness-log-react",
-      "reviewCategory": "production"
+      "reviewCategory": "production",
+      "versionPolicyName": "fitnessLogApp"
+    },
+    
+    {
+      "packageName": "fitness-log-api",
+      "projectFolder": "apps/fitness-log-api",
+      "reviewCategory": "production",
+      "versionPolicyName": "fitnessLogApi"
     },
     
     {
       "packageName": "weight-log-lambdas",
       "projectFolder": "apps/weight-log-lambdas",
-      "reviewCategory": "production"
+      "reviewCategory": "production",
+      "versionPolicyName": "fitnessLogApi"
     },
 
     {
       "packageName": "weight-log-get",
       "projectFolder": "apps/weight-log-lambdas/weight-log-get",
-      "reviewCategory": "production"
+      "reviewCategory": "production",
+      "versionPolicyName": "fitnessLogApi"
     }
   ]
 }
