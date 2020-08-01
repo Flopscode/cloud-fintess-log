@@ -34,7 +34,6 @@ const WeightLogPage:FC<WeightLogPageProps> = (props) => {
             <h1
                 className="default-page-margin"
             >Weight Log</h1>
-            Test Text
             <WeightLogChart
                 weightLog={generateData()}
             />
