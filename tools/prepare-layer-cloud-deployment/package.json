@@ -2,6 +2,7 @@
   "name": "prepare-layer-cloud-deployment",
   "version": "0.1.0",
   "bin": "./bin/prepare-layer-cloud-deployment.sh",
+  "private": true,
   "scripts": {
     "build": ""
   }

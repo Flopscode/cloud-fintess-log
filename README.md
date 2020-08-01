@@ -9,9 +9,9 @@
 
 ## Project Management
 
-This project uses the monorepo manager [Rush](https://rushjs.io).<br/>
-Only [lambda bundle](./docs/project_structure.md#lambda-bundle) projects deviate from the default project folder depth as is advertised by Rush.
-<small>Note: Due to the [lambda bundle pattern](./docs/project_structure.md#lambda-bundle), Rush also shamefully hoists depedencies.</small><br/>
+This project uses the monorepo manager [Rush](https://rushjs.io). Only [lambda bundle](./docs/project_structure.md#lambda-bundle) projects deviate from the default project folder depth as is advertised by Rush.
+
+<small>Note: Due to the lambda bundle pattern, Rush "shamefully hoists" depedencies via pnpm.</small><br/>
 
 See also the 
 
@@ -36,6 +36,7 @@ rush build
 rush test
 ```
 
+When publishing an NPM package, it is common practice to include a CHANGELOG.md file to inform your consumers about bug fixes, new features, and changed or removed functionality. Rush automates this using the rush change command. This command should be run once you are ready to merge your PR, after all your changes have been committed to the branch. It analyzes the changes in your branch and (when necessary) prompts you to write human-readable descriptions of your changes.
 
 ### Deployment
 

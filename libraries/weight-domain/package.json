@@ -2,6 +2,7 @@
   "name": "weight-domain",
   "version": "0.1.0",
   "main": "lib/index",
+  "private": false,
   "scripts": {
     "build": "tsc"
   },

@@ -1,6 +1,7 @@
 {
   "name": "fitness-log-react",
   "version": "0.1.0",
+  "private": false,
   "dependencies": {
     "@babel/core": "7.9.0",
     "@devexpress/dx-chart-core": "~2.7.0",
