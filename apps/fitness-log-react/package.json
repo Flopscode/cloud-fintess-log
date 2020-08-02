@@ -87,7 +87,8 @@
     "prepare-deployment": "node scripts/build.js",
     "prepare-cloud-deployment": "rushx prepare-deployment",
     "test": "CI=true node scripts/test.js",
-    "testx": "node scripts/test.js"
+    "testx": "node scripts/test.js",
+    "clean": "rm -rf build"
   },
   "eslintConfig": {
     "extends": "react-app"

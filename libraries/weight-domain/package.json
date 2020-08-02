@@ -4,7 +4,8 @@
   "main": "lib/index",
   "private": true,
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf lib"
   },
   "devDependencies": {
     "@types/node": "^14.0.27",

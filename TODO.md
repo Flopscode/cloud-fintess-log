@@ -1,9 +1,15 @@
-eslint
+# Now
+- eslint
+- jest
+- jest-coverage
 
-rm -f ${PWD##*/}.build.log && rm -f ${PWD##*/}.build.error.log
+# Next
+- source-map + lambda?
+- webpack + lambda?
+- cdk use frontend version from package for cloudfront origin (cache response)
 
-webpack + lambda?
-source-map + lambda?
-cdk use frontend version from package
-rush auto update versions?
-rush change
+# Then
+- CI/CD
+    - (rush change --verify --target-branch master fails after merge?)
+    - azure devops (squash?)
+    - code deploy

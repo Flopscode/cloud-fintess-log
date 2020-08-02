@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "",
-    "prepare-cloud-deployment": "prepare-layer-cloud-deployment"
+    "prepare-cloud-deployment": "prepare-layer-cloud-deployment",
+    "clean": "rm -rf build"
   },
   "devDependencies": {
     "@types/jest": "~26.0.8",

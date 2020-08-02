@@ -28,8 +28,20 @@
       "summary": "Builds and prepares lambda layers for deployment.",
       "description": "Builds and prepares lambda layers for deployment.",
       "safeForSimultaneousRushProcesses": true,
-      "enableParallelism": false,
+      "enableParallelism": true,
       "ignoreDependencyOrder": false,
+      "ignoreMissingScript": true,
+      "allowWarningsInSuccessfulBuild": false,
+      "incremental": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "clean",
+      "summary": "Cleans all build and deployment artifacts.",
+      "description": "Cleans all build, test and deployment artifacts.",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": true,
       "ignoreMissingScript": true,
       "allowWarningsInSuccessfulBuild": false
     }
